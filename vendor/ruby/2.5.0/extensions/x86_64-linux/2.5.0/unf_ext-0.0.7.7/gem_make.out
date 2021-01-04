@@ -1,0 +1,18 @@
+current directory: /home/raulpalma/gitpages/celeste-1.4.0/vendor/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20201201-12083-1r1z1c7.rb extconf.rb
+/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/raulpalma/gitpages/celeste-1.4.0/vendor/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /home/raulpalma/gitpages/celeste-1.4.0/vendor/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/raulpalma/gitpages/celeste-1.4.0/vendor/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20201201-12083-h93xab
