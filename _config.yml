@@ -7,12 +7,16 @@ highlighter:         rouge
 
 exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle','vendor']
 
-permalink:           pretty
-paginate:            5
-paginate_path:       /blog/:num
+collections:
+  past:
+    output: true
+    title: Previous seminar
+    directory: ./_past
 
-blog:
-  truncated_preview: false
+  upcoming:
+    output: true
+    title: Upcoming seminars
+    directory: ./_upcoming
 
 sass:
   sass_dir:          _sass
