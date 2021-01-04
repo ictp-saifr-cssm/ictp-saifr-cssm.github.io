@@ -1,5 +1,5 @@
-title:               Celeste
-url:                 https://nicoelayda.github.io
+title:               "ICTP SAIFR CSSM"
+url:                 http://ictp-saifr-cssm.github.io
 baseurl:             ""
 
 markdown:            kramdown
@@ -19,9 +19,9 @@ sass:
   style:             :compressed
 
 author:
-  name:              Nico Elayda
-  url:               nicoelayda.github.io
-  email:             nico@elayda.com
+  name:              "ICTP SAIFR CSSM"
+  url:               http://ictp-saifr-cssm.github.io
+  email:             ictp.saifr.seminais@gmail.com
 
 plugins:
   - jekyll-coffeescript
