@@ -15,7 +15,11 @@ Check here a list of our future seminars. Click on titles to open the lecture ab
 	    {% assign postStartDate = post.date | date: '%s' %}
    	    {% if postStartDate >= curDate %}
 		  <article class="post">
-		    <img style="margin:auto;width:150px" src="./img/{{ post.file-picture }}">
+			{% if post.file-picture %}
+		    <img style="margin:auto;width:150px" src="../img/{{ post.file-picture }}">
+			{% else %}
+		    <img style="margin:auto;width:150px" src="../img/no_picture.jpg">
+			{% endif %}
 		    <h1 style="text-align:center;margin-bottom:0" class="post-title">
 		      <a href="{{ site.baseurl }}{{ post.url }}">
 			{{ post.speaker }}

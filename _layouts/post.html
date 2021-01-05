@@ -3,8 +3,11 @@ layout: default
 ---
 
 <article class="post">
-
+	{% if page.file-picture %}
     <img style="margin:auto;width:150px" src="../img/{{ page.file-picture }}">
+	{% else %}
+    <img style="margin:auto;width:150px" src="../img/no_picture.jpg">
+	{% endif %}
     <h1 style="text-align:center;margin-bottom:0" class="post-title">
 	{{ page.speaker }}
     </h1>
@@ -44,7 +47,7 @@ layout: default
 <div class="row">
   <div class="column">
 	{% if page.link-institution %}
-	<a href="{{ page.link-institution }}"><img style="width:50px" title="Find {{ page.speaker }}'s homepage " src="/icons/university.svg"></a>
+	<a href="{{ page.link-institution }}"><img style="width:50px" title="Go to {{ page.speaker }}'s homepage " src="/icons/university.svg"></a>
 	{% endif %}
   </div>
   <div class="column">
@@ -54,7 +57,7 @@ layout: default
   </div>
   <div class="column">
 	{% if page.link-twitter %}
-	<a href="{{ page.link-twitter }}"><img style="width:50px" title="Find {{ page.speaker }}on Twitter" src="/icons/twitter.svg"></a>
+	<a href="{{ page.link-twitter }}"><img style="width:50px" title="Find {{ page.speaker }} on Twitter" src="/icons/twitter.svg"></a>
 	{% endif %}
   </div>
 </div>
