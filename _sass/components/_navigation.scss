@@ -12,8 +12,9 @@
   max-width: 50rem;
 
   @media (max-width: 50em) {
-    margin-bottom: 2rem;
-    width: 100%;
+    margin-bottom: auto;
+    width: 99%;
+    font-size: 12px;
   }
 
   ul {
@@ -24,9 +25,11 @@
   }
 
   li {
-    display: inline-block;
-    max-width: 19.5%;
+    display: inline-block;  
+    width: 18%;
     height: 4rem;
+    text-align: center;
+    white-space: nowrap;
 
     a {
       color: $nav-link-color;
