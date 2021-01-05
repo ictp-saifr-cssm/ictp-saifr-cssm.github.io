@@ -3,23 +3,39 @@ layout: default
 title: Upcoming Seminars
 ---
 
-<h2>Upcoming seminars</h2>
+<h1>Upcoming seminars</h1>
 
-<p>Check here the future seminars.</p>
+<p class="message">
+Check here a list of our future seminars. Click on titles to open the lecture abstract and information about the seminarists. when already available.
+</p>
 
 <div class="posts">
-  {% for post in site.upcoming %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  {% assign curDate = site.time | date: '%s' %}
+  {% for post in site.speakers %}
+	    {% assign postStartDate = post.date | date: '%s' %}
+   	    {% if postStartDate >= curDate %}
+		  <article class="post">
+		    <img style="margin:auto;width:150px" src="./img/{{ post.file-picture }}">
+		    <h1 style="text-align:center;margin-bottom:0" class="post-title">
+		      <a href="{{ site.baseurl }}{{ post.url }}">
+			{{ post.speaker }}
+		      </a>
+		    </h1>
+		    <h3 style="text-align:center;color:#888888;font-size:18px;font-weight:normal" class="post-title">
+			{{ post.institution }}
+		    </h3>
+		    <time style="text-align:center;color:#888888;font-size:24px;margin-bottom:0" datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }} at {{ post.timeBRT }} BRT</time>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-      {{ post.content }}
-
-  </article>
+		    <h3 style="text-align:center;" class="post-title">
+		      {% if post.title %}
+		      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		      {% else %}
+		      <a href="{{ site.baseurl }}{{ post.url }}">To be announced soon</a>
+		      {% endif %}
+		    </h3>
+		      <!-- {{ post.content }}-->
+		  <hr />
+		  </article>
+   	    {% endif %}
   {% endfor %}
 </div>

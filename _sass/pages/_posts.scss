@@ -7,6 +7,7 @@
 .page,
 .post {
   margin-bottom: 4em;
+  text-align:justify;
 }
 
 // Blog post or page title
@@ -26,4 +27,22 @@
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: $post-date-color;
+}
+
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.row{
+  width: 150px;
+  margin: 0 auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin: auto;
 }

@@ -3,23 +3,38 @@ layout: default
 title: Previous Seminars
 ---
 
-<h2>Previous seminars</h2>
+<h1>Previous seminars</h1>
 
-<p>Check here the previous seminars.</p>
+<p class="message">
+Check here a list of our previous seminars. Click on titles to open the lecture abstract and information about the seminarists. Some of them have been recorded and are also available. 
+</p>
+
 
 <div class="posts">
-  {% for post in site.past reversed %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  {% assign curDate = site.time | date: '%s' %}
+  {% for post in site.speakers reversed %}
+	    {% assign postStartDate = post.date | date: '%s' %}
+   	    {% if postStartDate < curDate %}
+		  <article class="post">
+		    <img style="margin:auto;width:150px" src="./img/{{ post.file-picture }}">
+		    <h1 style="text-align:center;margin-bottom:0" class="post-title">
+		      <a href="{{ site.baseurl }}{{ post.url }}">
+			{{ post.speaker }}
+		      </a>
+		    </h1>
+		    <h3 style="text-align:center;color:#888888;font-size:18px;font-weight:normal" class="post-title">
+			{{ post.institution }}
+		    </h3>
+		    <time style="text-align:center;color:#888888;font-size:24px;margin-bottom:0" datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-      {{ post.content }}
-
-  </article>
+		    <h3 style="text-align:center;" class="post-title">
+		      <a href="{{ site.baseurl }}{{ post.url }}">
+		      {{ post.title }}
+		      </a>
+		    </h3>
+		      <!-- {{ post.content }}-->
+		  <hr />
+		  </article>
+   	    {% endif %}
   {% endfor %}
 </div>

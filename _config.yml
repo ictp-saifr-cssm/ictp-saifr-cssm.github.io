@@ -8,15 +8,13 @@ highlighter:         rouge
 exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle','vendor']
 
 collections:
-  past:
+  speakers:
     output: true
-    title: Previous seminar
-    directory: ./_past
+    title: List of speakers
+    directory: ./_speakers
 
-  upcoming:
-    output: true
-    title: Upcoming seminars
-    directory: ./_upcoming
+unpublished: true
+future: true
 
 sass:
   sass_dir:          _sass

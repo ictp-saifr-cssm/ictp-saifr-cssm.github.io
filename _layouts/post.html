@@ -3,7 +3,64 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-  {{ content }}
+
+    <img style="margin:auto;width:150px" src="../img/{{ page.file-picture }}">
+    <h1 style="text-align:center;margin-bottom:0" class="post-title">
+	{{ page.speaker }}
+    </h1>
+    <h3 style="text-align:center;color:#888888;font-size:18px;font-weight:normal" class="post-title">
+	{{ page.institution }}
+    </h3>
+    <time style="text-align:center;color:#888888;font-size:24px;margin-bottom:0" datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }} at {{ page.timeBRT}} BRT</time>
+
+    <h3 style="text-align:center;" class="post-title">
+      {{ page.title }}
+    </h3>
+
+<hr>
+
+<h3>Abstract</h3>
+{{ content }}
+
+{% unless page.link-youtube %}
+{% if page.link-zoom %}
+<h3>Watch the seminar live on Zoom</h3>
+<div style="width:50%" class="row">
+<a href="{{ page.link-zoom }}"><img style="width:50px;margin:auto;" title="Watch {{ page.speaker }}'s seminar on Zoom" src="/icons/ui-video-play.svg"></a>
+<p style="text-align:center;margin-top:5px"><a href="{{ page.link-zoom }}"><b>Zoom ID:</b> {{ page.id-zoom }}</a><br><b>Zoom Password:</b> <i>{{ page.pw-zoom }}</i></p>
+</div>
+{% endif %}
+{% endunless %}
+
+{% if page.link-youtube %}
+<h3>Watch the seminar on Youtube</h3>
+<a href="{{ page.link-youtube }}"><img style="width:50px;margin:auto;" title="Watch {{ page.speaker }}'s seminar on Youtube" src="/icons/ui-video-play.svg"></a>
+{% endif %}
+
+{% if page.link-institution or page.link-twitter or page.link-scholar %}
+<h3>Find {{page.speaker}}</h3>
+{% endif %}
+
+<div class="row">
+  <div class="column">
+	{% if page.link-institution %}
+	<a href="{{ page.link-institution }}"><img style="width:50px" title="Find {{ page.speaker }}'s homepage " src="/icons/university.svg"></a>
+	{% endif %}
+  </div>
+  <div class="column">
+	{% if page.link-scholar %}
+	<a href="{{ page.link-scholar }}"><img style="width:50px" title="Find {{ page.speaker }}'s publications on GoogleScholar" src="/icons/papers.svg"></a>
+	{% endif %}
+  </div>
+  <div class="column">
+	{% if page.link-twitter %}
+	<a href="{{ page.link-twitter }}"><img style="width:50px" title="Find {{ page.speaker }}on Twitter" src="/icons/twitter.svg"></a>
+	{% endif %}
+  </div>
+</div>
+
 </article>
+<hr>
+
+
+
