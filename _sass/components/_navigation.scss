@@ -9,9 +9,9 @@
   margin-bottom: 4rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 40rem;
+  max-width: 50rem;
 
-  @media (max-width: 38em) {
+  @media (max-width: 50em) {
     margin-bottom: 2rem;
     width: 100%;
   }
@@ -26,6 +26,8 @@
   li {
     display: inline-block;
     max-width: 19.5%;
+    height: 4rem;
+
     a {
       color: $nav-link-color;
       display: block;

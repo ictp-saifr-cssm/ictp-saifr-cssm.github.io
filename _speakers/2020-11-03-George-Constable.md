@@ -10,7 +10,7 @@ file-picture:
 institution: "University of York, UK"
 
 link-scholar: "https://scholar.google.co.uk/citations?user=HHhaNbIAAAAJ&hl=en"
-link-twitter: 
+link-twitter: "https://twitter.com/gwaconstable"
 link-institution: "https://www.york.ac.uk/natural-sciences/staff-profiles/george-constable/"
 link-youtube:
 

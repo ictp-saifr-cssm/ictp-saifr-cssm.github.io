@@ -10,7 +10,7 @@ file-picture:
 institution: "Princeton University, USA"
 
 link-scholar: "https://scholar.google.com.br/citations?user=mMCHQ9oAAAAJ&hl=pt-BR"
-link-twitter: 
+link-twitter: "https://twitter.com/ehcolombo"
 link-institution: "https://scholar.princeton.edu/ctarnita/people/eduardo-colombo"
 link-youtube:
 
