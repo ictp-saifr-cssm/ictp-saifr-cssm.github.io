@@ -10,7 +10,7 @@ file-picture:
 institution: "Instituto Superior Técnico, Portugal"
 
 link-scholar: "https://scholar.google.com/citations?user=q_ImCK0AAAAJ&hl=en"
-link-twitter: "https://twitter.com/mbauer67"
+link-twitter: 
 link-institution: "https://biomathematica.wordpress.com/"
 link-youtube:
 
