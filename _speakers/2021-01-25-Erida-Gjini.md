@@ -6,7 +6,7 @@ timeBRT: 14h30
 
 speaker: "Erida Gjini"
 title: "Eco-evolutionary dynamics in co-colonization systems with multiple strains"
-file-picture: "egjini_profile-2.png"
+file-picture: "erida.jpeg"
 institution: "Instituto Superior Técnico, Portugal"
 
 link-scholar: "https://scholar.google.com/citations?user=q_ImCK0AAAAJ&hl=en"
