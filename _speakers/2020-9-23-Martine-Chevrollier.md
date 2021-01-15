@@ -5,7 +5,7 @@ date: 2020-09-23
 timeBRT: 14h30
 
 speaker: "Martine Chevrollier"
-title: "Synchronization of a nonlinear system with sum signlas of multiple chaotic systems"
+title: "Synchronization of a nonlinear system with sum signals of multiple chaotic systems"
 file-picture: 
 institution: "Universidade Federal Rural de Pernambuco (UFRPE), BR"
 
