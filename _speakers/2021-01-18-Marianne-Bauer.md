@@ -14,7 +14,7 @@ link-twitter: "https://twitter.com/mbauer67"
 link-institution: 
 link-youtube:
 
-link-zoom: "yes"
+link-zoom: 
 id-zoom: 
 pw-zoom: 
 ---
