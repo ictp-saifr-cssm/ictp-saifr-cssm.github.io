@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "https://biomathematica.wordpress.com/"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom:
 id-zoom: 
 pw-zoom: 
 ---
