@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "http://www.complexity.es/"
 link-youtube:
 
-link-zoom: 
+link-zoom: "yes"
 id-zoom: 
 pw-zoom: 
 ---

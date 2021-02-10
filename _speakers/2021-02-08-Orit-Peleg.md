@@ -14,7 +14,7 @@ link-twitter: "https://twitter.com/oritpeleg"
 link-institution: "https://www.peleglab.com/"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom:
 id-zoom: 
 pw-zoom: 
 ---
