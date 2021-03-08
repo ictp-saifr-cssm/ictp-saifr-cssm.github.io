@@ -13,7 +13,7 @@ Check here a list of our future seminars. Click on titles to open the lecture ab
   {% assign curDate = site.time | date: '%s' %}
   {% for post in site.speakers %}
 	    {% assign postStartDate = post.date | date: '%s' %}
-   	    {% if postStartDate >= curDate %}
+   	    {% if postStartDate > curDate %}
 		  <article class="post">
 			{% if post.file-picture %}
 		    <img style="margin:auto;width:150px" src="../img/{{ post.file-picture }}">
