@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "https://sites.google.com/uniroma1.it/irene-giardina"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom:
 id-zoom: 
 pw-zoom: 
 ---
