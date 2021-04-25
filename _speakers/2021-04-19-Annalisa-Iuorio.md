@@ -14,7 +14,7 @@ link-twitter: "https://twitter.com/annuk89"
 link-institution: "https://annalisaiuorio.com/"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom:
 id-zoom: 
 pw-zoom: 
 ---
