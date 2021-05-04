@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "https://web.iisermohali.ac.in/dept/physics/Sudeshna_Sinha.html"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom: 
 id-zoom: 
 pw-zoom: 
 ---
