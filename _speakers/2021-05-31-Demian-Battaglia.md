@@ -23,7 +23,7 @@ The dynamics of neural circuits give rise to rich patterns of coordinated activi
 
 #### References
 
-* Clawson, W., Madec, T., Ghestem, A., Quilichini, P.P., Battaglia, D., Bernard, C. (2021). Disordered information processing dynamics in experimental epilepsy. bioRxiv. 
-* Pedreschi N, Bernard C, Clawson W, Quilichini P, Barrat A, Battaglia D (2020). Dynamic core-periphery structure of information sharing networks in entorhinal cortex and hippocampus. Netw Neurosci 4: 946–975.
-* Clawson W, Vicente AF, Ferraris M, Bernard C, Battaglia D, Quilichini PP (2019). Computing hubs in the hippocampus and cortex. Sci Adv 5: eaax4843.
-* Palmigiano A, Geisel T, Wolf F, Battaglia D (2017). Flexible information routing by transient synchrony. Nat Neurosci. 20: 1014–1022.
+* Clawson, W., Madec, T., Ghestem, A., Quilichini, P.P., Battaglia, D., Bernard, C. (2021). *Disordered information processing dynamics in experimental epilepsy.* bioRxiv. 
+* Pedreschi N, Bernard C, Clawson W, Quilichini P, Barrat A, Battaglia D (2020). *Dynamic core-periphery structure of information sharing networks in entorhinal cortex and hippocampus.* Netw Neurosci 4: 946–975.
+* Clawson W, Vicente AF, Ferraris M, Bernard C, Battaglia D, Quilichini PP (2019). *Computing hubs in the hippocampus and cortex.* Sci Adv 5: eaax4843.
+* Palmigiano A, Geisel T, Wolf F, Battaglia D (2017). *Flexible information routing by transient synchrony.* Nat Neurosci. 20: 1014–1022.
