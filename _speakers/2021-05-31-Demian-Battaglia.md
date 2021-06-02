@@ -14,7 +14,7 @@ link-twitter: "https://twitter.com/DemianBattaglia"
 link-institution: 
 link-youtube:
 
-link-zoom: "yes"
+link-zoom:
 id-zoom: 
 pw-zoom: 
 ---

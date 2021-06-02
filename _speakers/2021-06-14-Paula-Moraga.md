@@ -14,7 +14,7 @@ link-twitter: "https://twitter.com/Paula_Moraga_"
 link-institution: "https://www.paulamoraga.com/"
 link-youtube:
 
-link-zoom: 
+link-zoom: "yes"
 id-zoom: 
 pw-zoom: 
 ---
