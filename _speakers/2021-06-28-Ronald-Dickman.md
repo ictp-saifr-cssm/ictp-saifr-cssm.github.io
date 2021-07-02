@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "https://www.fisica.ufmg.br/professores/ronald-dickman/"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom: 
 id-zoom: 
 pw-zoom: 
 ---
