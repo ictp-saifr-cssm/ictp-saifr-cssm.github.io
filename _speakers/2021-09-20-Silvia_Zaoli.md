@@ -7,7 +7,7 @@ timeBRT: 14h30
 speaker: "Silvia Zaoli"
 title: "A macroecological description of gut microbial community dynamics"
 file-picture: "zaoli.jpeg"
-institution: "ICTP, Italy"
+institution: "International Centre for Theoretical Physics (ICTP), Italy"
 
 link-scholar: "https://scholar.google.com/citations?user=aPZha4cAAAAJ&hl=it"
 link-twitter: 
