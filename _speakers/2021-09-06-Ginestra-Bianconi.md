@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "https://www.qmul.ac.uk/maths/profiles/bianconig.html"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom:
 id-zoom: 
 pw-zoom: 
 ---
