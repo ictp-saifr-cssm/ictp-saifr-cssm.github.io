@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "https://www.sartorilab.org/"
 link-youtube:
 
-link-zoom: 
+link-zoom: "yes"
 id-zoom: 
 pw-zoom: 
 ---
