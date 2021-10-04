@@ -5,7 +5,7 @@ date: 2021-10-18
 timeBRT: 14h30
 
 speaker: "Manish Shrimali"
-title: "Emergent rhythms in nonlinear oscillators with dynamic interactions"
+title: "Reservoir Computing: the bridge between Complex Dynamics and Artificial Intelligence"
 file-picture: "shrimali.jpg"
 institution: "Central University of Rajasthan, India"
 
@@ -14,9 +14,9 @@ link-twitter:
 link-institution: "http://manishshrimali.com/"
 link-youtube:
 
-link-zoom:
+link-zoom: "yes"
 id-zoom: 
 pw-zoom: 
 ---
 
-The population biology of ecological networks, social communication networks, brain functional networks, possibility of outbreaks, and spreading of disease through human contact networks, to name but a few examples all attest to the importance of research studies based on the dynamic interaction approach. In this talk, we will discuss the role of a new form of dynamic interaction in a network of oscillators. A time-evolving state-space dependent coupling among an ensemble of oscillators is introduced, where individual units are interacting only when the state of the system lies within certain proximity of the phase space. The proposed design of dynamic coupling facilitates the onset of a plethora of asymptotic states including synchronous states, amplitude death states, oscillation death states, a mixed state (complete synchronized cluster and small amplitude desynchronized domain), and bistable states (coexistence of two attractors). Besides the study on periodic Stuart–Landau and Van der pol oscillators, we present results for the paradigmatic chaotic models of Lorenz and Rössler along with the MacArthur ecological and FitzHugh–Nagumo neuron model systems.
+Reservoir Computing is getting increasing attention as a promising architecture to perform computation with dynamical systems. It uses the dynamical system itself as a computing substrate. A reservoir computer consists of a dynamical reservoir to encode the input into a high-dimensional states and a linear readout to analyze those higher dimensional pattern and extracting the required output. Importantly, it requires very small training data sets, uses linear optimization, and thus requires minimal computing resources. Different kinds of dynamical systems can act as potential reservoir having a rich dynamics. According to recent findings in the field, various physical systems including mechanical, electronic, photonic, spintronics, chemical, biological systems has been proven to be successful in performing complex tasks. For all different reservoirs there are mainly two factors we need to take care of for its best performance in accordance with the given tasks: the method to feed the input to the reservoir and the optimal configuration of the reservoir. In recent work, it has been show that in a network of coupled nonlinear oscillators the occurrence of explosive transition helps to achieve that critical configuration of the reservoir.
