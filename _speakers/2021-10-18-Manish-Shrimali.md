@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "http://manishshrimali.com/"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom:
 id-zoom: 
 pw-zoom: 
 ---
