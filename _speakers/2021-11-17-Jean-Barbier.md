@@ -1,7 +1,7 @@
 ---
 layout: post
 
-date: 2021-11-15
+date: 2021-11-17
 timeBRT: 14h30
 
 speaker: "Jean Barbier"
