@@ -14,7 +14,7 @@ link-twitter: "https://twitter.com/YuanzhaoZhang"
 link-institution: "https://y-zhang.com/"
 link-youtube:
 
-link-zoom:
+link-zoom: "yes"
 id-zoom: 
 pw-zoom: 
 ---
