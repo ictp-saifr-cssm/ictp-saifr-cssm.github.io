@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "http://keymerlab.nl"
 link-youtube:
 
-link-zoom:
+link-zoom: "yes"
 id-zoom: 
 pw-zoom: 
 ---
