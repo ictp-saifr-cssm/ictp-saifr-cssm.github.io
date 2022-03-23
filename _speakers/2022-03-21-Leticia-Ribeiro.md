@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "https://lectici8.wixsite.com/my-site"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom: 
 id-zoom: 
 pw-zoom: 
 ---
