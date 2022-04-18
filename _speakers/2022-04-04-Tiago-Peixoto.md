@@ -14,7 +14,7 @@ link-twitter: "https://twitter.com/tiagopeixoto"
 link-institution: "https://skewed.de/tiago"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom: 
 id-zoom: 
 pw-zoom: 
 ---
