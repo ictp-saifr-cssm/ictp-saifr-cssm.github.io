@@ -1,7 +1,7 @@
 ---
 layout: post
 
-date: 2022-05-30
+date: 2022-05-30 14:30:00
 timeBRT: 14h30
 
 speaker: "Piret Avila"
@@ -14,7 +14,7 @@ link-twitter: "https://twitter.com/piretavila?ref_src=twsrc%5Egoogle%7Ctwcamp%5E
 link-institution: 
 link-youtube:
 
-link-zoom: 
+link-zoom: "yes"
 id-zoom: 
 pw-zoom: 
 ---

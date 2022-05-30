@@ -14,7 +14,7 @@ link-twitter:
 link-institution: "https://ifisc.uib-csic.es/users/claudio/"
 link-youtube:
 
-link-zoom: "yes"
+link-zoom: 
 id-zoom: 
 pw-zoom: 
 ---
