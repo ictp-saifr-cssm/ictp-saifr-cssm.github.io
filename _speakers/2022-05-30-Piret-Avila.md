@@ -14,7 +14,7 @@ link-twitter: "https://twitter.com/piretavila?ref_src=twsrc%5Egoogle%7Ctwcamp%5E
 link-institution: 
 link-youtube:
 
-link-zoom: "yes"
+link-zoom: 
 id-zoom: 
 pw-zoom: 
 ---
